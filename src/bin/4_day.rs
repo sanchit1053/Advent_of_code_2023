@@ -55,7 +55,6 @@ fn part2(contents: &str) -> i32 {
             }
         }
 
-        println!("{nums}");
         for next in id+1 .. id+nums+1 {
             num_tickets[next] += num_tickets[id];
         }
