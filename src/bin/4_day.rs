@@ -68,6 +68,7 @@ fn main() {
 
     let part1ans = part1(&contents);
     let part2ans = part2(&contents);
+
     println!("Part 1 Answer : {part1ans}");
     println!("Part 2 Answer : {part2ans}");
 }
